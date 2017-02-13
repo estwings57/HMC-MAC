@@ -1,0 +1,66 @@
+****************************************************************
+*                      HMC-MAC version 1.0                     *
+*                       setting log file                       *
+*            Date : 2017/02/13      Time : 14:19:27            *
+****************************************************************
+
+        ==== Memory transaction setting ====
+       CPU cycles to be simulated : 100000
+            CPU clock period [ns] : 0.5
+ Data size of DRAM request [byte] : 32
+          Request buffer max size : 4
+                       Trace type : random
+            Frequency of requests : 0.1
+      The percentage of reads [%] : 60
+
+              ==== Link(SerDes) setting ====
+                     CRC checking : Enable
+              The number of links : 4
+                       Link width : 16
+                Link speed [Gb/s] : 30
+ Link master/slave max buffer size: 32
+      Crossbar switch buffer size : 64
+            Retry buffer max size : 32
+      Time to calculate CRC [clk] : 0.01
+       The number of IRTRY packet : 2
+              Retry attempt limit : 2
+       Link BER (the power of 10) : -10
+             Link priority scheme : 0
+
+              ==== DRAM general setting ====
+                   Memory density : 4
+             The number of vaults : 32
+              The number of banks : 8
+               The number of rows : 16384
+            The number of columns : 1024
+ Address mapping (Max block size) : 32
+ Vault controller max buffer size : 32
+           Command queue max size : 16
+          Command queue structure : Bank-level command queue (Bank-Level parallelism)
+                Memory scheduling : open page policy
+  The maximum row buffer accesses : 8
+                  Power-down mode : Enable
+
+ ==== DRAM timing setting ====
+ Refresh period : 7800
+ tCK    [ns] : 0.8
+  CL   [clk] : 13
+  AL   [clk] : 0
+ tRAS  [clk] : 27
+ tRCD  [clk] : 13
+ tRRD  [clk] : 4
+ tRC   [clk] : 40
+ tRP   [clk] : 10
+ tCCD  [clk] : 4
+ tRTP  [clk] : 7
+ tWTR  [clk] : 7
+ tWR   [clk] : 10
+ tRTRS [clk] : 1
+ tRFC  [clk] : 74
+ tFAW  [clk] : 24
+ tCKE  [clk] : 5
+ tXP   [clk] : 4
+ tCMD  [clk] : 1
+  RL   [clk] : 13
+  WL   [clk] : 3
+  BL   [clk] : 1
